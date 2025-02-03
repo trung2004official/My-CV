@@ -1,0 +1,231 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #393E46;
+    line-height: 1.6;
+}
+
+.cv-container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #EEEEEE;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #393E46;
+}
+
+header {
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #EEEEEE;
+}
+
+header img.profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 5px solid #222831;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-top: 15px;
+}
+/* Section Titles */
+section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #393E46;
+    border-bottom: 2px solid #222831;
+    padding-bottom: 5px;
+}
+
+/* About Section */
+.about p {
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+/* Education Section */
+.education .course {
+    margin-bottom: 20px;
+    background-color: #00ADB5;
+    border: 2px solid #393E46;
+}
+
+.education .course small {
+    display: block;
+    font-size: 0.9rem;
+    color: #222831;
+}
+
+.education h3 {
+    font-size: 1.4rem;
+    color: #222831;
+}
+
+/* Skills Section */
+.skills {
+    padding: 20px;
+    background-color: #EEEEEE;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skills h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.skills h3 {
+    font-size: 1.25rem;
+    color: #00ADB5;
+    margin-bottom: 10px;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills ul li {
+    padding: 5px 0;
+    color: #555;
+}
+
+.skills ul li::before {
+    content: "•";
+    color: #00ADB5;
+    font-weight: bold;
+    display: inline-block;
+    width: 15px;
+    margin-left: -15px;
+}
+/* Projects Section */
+.projects {
+    padding: 20px;
+    background-color: #EEEEEE;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.projects h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.projects h3 {
+    font-size: 1.25rem;
+    color: #00ADB5;
+    margin-bottom: 10px;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.projects ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.projects ul li {
+    padding: 5px 0;
+    color: #555;
+}
+
+.projects ul li::before {
+    content: "•";
+    color: #00ADB5;
+    font-weight: bold;
+    display: inline-block;
+    width: 15px;
+    margin-left: -15px;
+}
+
+/* Footer Section */
+footer.contact ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 30px;
+    text-align: center;
+}
+
+footer.contact li {
+    margin: 5px 0;
+    font-size: 1.1rem;
+}
+
+footer.contact li:first-child {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #393E46;
+}
+.contact ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.contact ul li {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #555;
+}
+
+.contact-link {
+    text-decoration: none;
+    color: #00ADB5; /* Default color for links */
+    font-weight: bold;
+}
+
+.contact-link:hover {
+    color: #2c3e50; /* Change color on hover */
+    text-decoration: underline; /* Optional underline effect */
+}
+
+.header-contact a {
+    color: #00ADB5;
+    text-decoration: none; /* Bỏ gạch chân mặc định */
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.header-contact a:hover {
+    color: #2c3e50; /* Màu đậm hơn khi hover */
+}
+
+.header-contact i {
+    color: #00ADB5 !important; /* Áp dụng màu cho icon */
+}   
+
+.contact-icons a {
+    color: #00ADB5;
+    font-size: 32px; /* Tăng kích thước icon */
+    margin: 0 12px;
+    transition: color 0.3s ease-in-out;
+}
+
+.contact-icons a:hover {
+    color: #008C9E; /* Màu đậm hơn khi hover */
+}
